@@ -92,7 +92,11 @@ p, li {
 
 ul {
   font-family: 'aqua_pfont';
-  list-style-type: "*";
+  list-style-type: "＊ ";
+}
+
+li::marker {
+  font-family: 'aqua_pfont';
 }
 
 hr {
